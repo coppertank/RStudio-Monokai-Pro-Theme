@@ -4,9 +4,13 @@ RStudio Theme based on [Monokai Pro](https://monokai.pro/) color scheme for VSco
 
 ![Monokai Pro](https://github.com/coppertank/RStudio-Monokai-Pro-Theme/blob/main/img/Monokai-Pro-Preview.png)
 
+### Dark style also across New Project Wizard (and other panels)
+
+![New Project Wizard](https://github.com/coppertank/RStudio-Monokai-Pro-Theme/blob/main/img/New-project-wizard.png)
+
 ## Installation
 
-Download the folder, unzip and open RStudio. Go to **Preferences** \> **Appearance** \> **Add**, and then navigate to the `.rstheme` file path. Click apply.
+Download the folder, unzip and open RStudio. Go to **Tools** \> **Global Options** \> **Appearance** \> **Add**, and then navigate to the `.rstheme` file path. Click apply.
 
 Otherwise, you can copy the following into your console (requires [Devtools](https://cran.r-project.org/web/packages/devtools/index.html)):
 
