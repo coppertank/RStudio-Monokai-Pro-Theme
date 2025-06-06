@@ -694,16 +694,6 @@ input#rstudio_command_palette_search {
   background-color: transparent !important;
 }
 
-.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction table,
-.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction table td,
-.rstudio-themes-flat .dialogContent button table,
-.rstudio-themes-flat .dialogContent button:not(:hover) table > tbody > tr > td > div {
-  background: #2d2a2e !important;
-  color: #fcfcfa !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] > div,
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"],
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"] .gwt-Label,
@@ -729,24 +719,6 @@ input#rstudio_command_palette_search {
 
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [id^="rstudio_label"][aria-selected="true"] td .gwt-Label {
   color: #fcfcfa !important;
-}
-
-.rstudio-themes-flat .dialogContent button {
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: #403e41 !important;
-  border-radius: 3px !important;
-}
-
-.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction:hover table,
-.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction:hover table div,
-.rstudio-themes-flat .dialogContent button:hover,
-.rstudio-themes-flat .dialogContent button:hover table,
-.rstudio-themes-flat .dialogContent .gwt-Button:hover > table > tbody > tr > td,
-.rstudio-themes-flat .dialogContent button:hover table > tbody > tr > td > div {
-  color: #fcfcfa !important;
-  background: #403e41 !important;
-  border-color: #403e41 !important;
 }
 
 .rstudio-themes-flat .dialogContent input {
@@ -976,6 +948,66 @@ input#rstudio_command_palette_search {
 
 .GPWVOE5CLX {
   background-color: #2d2a2e !important;
+}
+
+.GPWVOE5CNHB .GPWVOE5CIJB {
+  background: #403e41 !important;
+  border: none !important;
+}
+
+.GPWVOE5CNHB .GPWVOE5COIB {
+  color: #ffd866 !important; 
+}
+
+.gwt-ListBox {
+  border-color: #403e41;
+}
+
+/*Some buttons in the options pane*/
+.rstudio-themes-flat button.gwt-Button-DialogAction>table:first-child, .rstudio-themes-flat button.GD15MCFCB1>table:first-child, .rstudio-themes-flat button.GD15MCFCH1>table:first-child, button.GD15MCFCB1 table tbody {
+  border-radius: 3px !important;
+  background: #403e41 !important;
+  color: #fcfcfa !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* on hover */
+.rstudio-themes-flat button.gwt-Button-DialogAction:hover > table:first-child,
+.rstudio-themes-flat button.GD15MCFCB1:hover > table:first-child,
+.rstudio-themes-flat button.GD15MCFCH1:hover > table:first-child,
+button.GD15MCFCB1:hover table tbody {
+  background: #5b595c !important;
+}
+
+button.gwt-Button-DialogAction>table:first-child, button.GPWVOE5CE3>table:first-child {
+  color: #fcfcfa !important;
+  background: #403e41 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+button.gwt-Button-DialogAction:hover > table:first-child,
+button.GPWVOE5CE3:hover > table:first-child {
+  background: #5b595c !important;
+}
+
+button.GPWVOE5CA3>table:first-child {
+  border: solid 1px #403e41 !important;
+  box-shadow: none !important;
+  background: #403e41 !important;
+}
+
+button.GPWVOE5CA3:hover > table:first-child {
+  background: #5b595c !important;
+}
+
+.GPWVOE5CP2 {
+  color: #fcfcfa !important;
+}
+
+.GPWVOE5CCW {
+  color: #fcfcfa !important;
 }
 
 .xtermInvertColor { color: #2d2a2e; }
