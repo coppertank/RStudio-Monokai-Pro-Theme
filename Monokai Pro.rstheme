@@ -304,6 +304,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   background: #221f22 !important;
 }
 
+/* border small menus */
+.rstudio-themes-dark-menus .menuPopupMiddleCenter, .rstudio-themes-dark-menus .themedPopupPanel .popupMiddleCenter, .rstudio-themes-dark-menus .gwt-SuggestBoxPopup .suggestPopupMiddleCenter {
+  border: solid 1px #2d2a2e;
+}
+
 .rstudio-themes-flat #rstudio_workbench_panel_find_in_files td[colspan="2"] {
   /* file name in Find in Files */
   color: #f78c6c;
@@ -562,6 +567,11 @@ input#rstudio_command_palette_search {
   border: none;
 }
 
+.GPWVOE5CPED {
+  border: 1px solid #2d2a2e!important;
+  box-shadow: 0px 0px 2px 1px #555555;
+}
+
 #rstudio_command_palette_list {
   background-color: #403e41;
   border-color: #221f22;
@@ -774,6 +784,16 @@ input#rstudio_command_palette_search {
     color: #FAFBFF !important;
     background: none !important;
     border-color: #6a6a6a !important;
+}
+
+/* pop up menu package name */
+.GPWVOE5COS {
+  color: #939293;
+}
+
+/* pop up menu line separator */
+.rstudio-themes-dark-menus .gwt-MenuItemSeparator .menuSeparatorInner {
+  border-color: #727072;
 }
 
 /* Switch projects window */
