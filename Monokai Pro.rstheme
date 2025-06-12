@@ -302,6 +302,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .rstudio-themes-flat .rstudio-themes-dark .search, .rstudio-themes-flat.rstudio-themes-dark-menus .search {
   /* search */
   background: #221f22 !important;
+  border-color: #403e41 !important;
 }
 
 /* border small menus */
@@ -325,6 +326,19 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .rstudio-themes-flat .suggestPopupMiddleCenter {
   color: #fcfcfa !important;
   background: #403e41 !important;
+}
+
+.rstudio-themes-dark-grey .rstudio-themes-background, .rstudio-themes-dark-grey .rstheme_toolbarWrapper, .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter, .rstudio-themes-dark-grey .rstheme_secondaryToolbar, .rstudio-themes-dark-grey .GPWVOE5CEX.GPWVOE5CAQ div.GPWVOE5CNP .GPWVOE5CPT, .rstudio-themes-dark-grey .gwt-TabLayoutPanelContent, .rstudio-themes-dark-grey .gwt-TabLayoutPanel {
+  background: #2d2a2e;
+}
+
+.rstudio-themes-dark button.GPWVOE5CA3>table:first-child {
+  background: #2d2a2e !important;
+  border: #403e41 !important;
+}
+
+.rstudio-themes-dark .breadcrumb table.GPWVOE5CEK .rstudio-HyperlinkLabel {
+    color: #bfd3e8 !important;
 }
 
 .rstudio-themes-flat .popupMiddleCenter .item.item-selected,
@@ -1002,14 +1016,14 @@ button.GD15MCFCB1:hover table tbody {
 
 button.gwt-Button-DialogAction>table:first-child, button.GPWVOE5CE3>table:first-child {
   color: #fcfcfa !important;
-  background: #005fff !important;
+  background: #403e41 !important;
   border: none !important;
   box-shadow: none !important;
 }
 
 button.gwt-Button-DialogAction:hover > table:first-child,
 button.GPWVOE5CE3:hover > table:first-child {
-  background: #0087d7 !important;
+  background: #5b595c !important;
 }
 
 button.GPWVOE5CA3>table:first-child {
@@ -1040,7 +1054,7 @@ button.GPWVOE5CA3:hover > table:first-child {
 
 /*GIT Panel*/
 .GPWVOE5CCBD {
-  background: #403e41;
+  background: #2d2a2e;
   color: #fcfcfa;
 }
 
@@ -1062,7 +1076,7 @@ button.GPWVOE5CA3:hover > table:first-child {
 }
 
 .GPWVOE5CLAD {
-  background: #2d2a2e;
+  background: #403e41;
   border: 1px solid #2d2a2e;
   color: #fcfcfa;
 }
@@ -1144,6 +1158,11 @@ button.GPWVOE5CA3:hover > table:first-child {
 
 .GPWVOE5CBE {
   background: #727072;
+}
+
+:focus-visible:not(.gwt-MenuBar), input[type="checkbox"]:focus-visible {
+  outline: #ffd866 solid 1.5px !important;
+  outline-offset: -1px !important;
 }
 
 .xtermInvertColor { color: #2d2a2e; }
