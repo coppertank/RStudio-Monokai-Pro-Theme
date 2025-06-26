@@ -205,10 +205,10 @@
 .ace_marker-layer .ace_foreign_line {
   position: absolute;
   z-index: -1;
-  background-color: #423F43;
+  background-color: rgba(252, 252, 250, 0.04);
 }
 .ace_node-selector {
-  background-color: #fb6f1c
+  background-color: #fb6f1c;
 }
 .ace_comment-highlight {
   color: #4D4333;
@@ -247,7 +247,7 @@
 }
 
 .rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border {
-  border-color: #ab9df2;
+  border-color: #221f22;
 }
 
 /* inactive tabs */
@@ -276,6 +276,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 /* hovered toolbar‐tab label color */
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab:hover .gwt-Label {
   color: #ffd866 !important;
+}
+
+/* target any right-floated gwt-Label */
+div.gwt-Label[style*="float: right"] {
+  color: #939293 !important;
 }
 
 .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab:hover .rstheme_tabLayoutCenter {
@@ -338,7 +343,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 .rstudio-themes-dark .breadcrumb table.GPWVOE5CEK .rstudio-HyperlinkLabel {
-    color: #bfd3e8 !important;
+  color: #bfd3e8 !important;
+}
+
+.GPWVOE5CHQB {
+  color: #bfd3e8 !important;
 }
 
 .rstudio-themes-flat .popupMiddleCenter .item.item-selected,
@@ -591,10 +600,6 @@ input#rstudio_command_palette_search {
   border-color: #221f22;
 }
 
-.rstudio-themes-flat .rstudio-themes-border {
-  border-color: #221f22;
-}
-
 .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table .gwt-Label,
 .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table td {
   background-color: #221f22;
@@ -682,7 +687,7 @@ input#rstudio_command_palette_search {
 }
 
 .rstudio-themes-flat .dialogContent > table:first-child:last-child :not(button) > table, .rstudio-themes-flat .dialogContent > table:first-child:last-child :not(button) > table > tbody > td {
-  background: #2d2a2e !important;
+  background: transparent !important;
   color: #fcfcfa !important;
   border-color: #221f22 !important;
 }
@@ -720,13 +725,27 @@ input#rstudio_command_palette_search {
 
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] > div,
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"],
-.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"] .gwt-Label,
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"],
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"] [role="tab"]:not([aria-selected="true"]) .gwt-Label,
 .rstudio-themes-flat .gwt-DialogBox .dialogContent .gwt-TabLayoutPanelTab {
   /* Dialog options lists and tabs */
-  background: #2d2a2e !important;
+  background: transparent;
   color: #fcfcfa !important;
+}
+
+.GPWVOE5CHQ .gwt-TabLayoutPanelTab {
+  background: #2d2a2e !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"] .gwt-Label {
+  background: transparent;
+  color: #fcfcfa;
+}
+
+/* listbox options */
+.rstudio-themes-flat .gwt-DialogBox .dialogContent
+  [role="listbox"] [role="option"][aria-selected="true"] {
+  background-color: #403e41 !important;
 }
 
 .rstudio-themes-flat .gwt-DialogBox .dialogContent [id^="rstudio_label"][aria-selected="true"],
@@ -1052,6 +1071,21 @@ button.GPWVOE5CA3:hover > table:first-child {
   color: #fcfcfa;
 }
 
+.GPWVOE5CLPB {
+  background-color: #2d2a2e;
+  border: 1px solid #403e41;
+}
+
+.GPWVOE5CPOB {
+  background-color: #2d2a2e;
+  border: 1px solid #403e41;
+}
+
+.GPWVOE5CCPB {
+  background-color: #2d2a2e;
+  border: 1px solid #403e41;
+}
+
 /*GIT Panel*/
 .GPWVOE5CCBD {
   background: #2d2a2e;
@@ -1163,6 +1197,40 @@ button.GPWVOE5CA3:hover > table:first-child {
 :focus-visible:not(.gwt-MenuBar), input[type="checkbox"]:focus-visible {
   outline: #ffd866 solid 1.5px !important;
   outline-offset: -1px !important;
+}
+
+.GPWVOE5CH4 {
+  color: #fcfcfa !important;
+}
+
+.GPWVOE5CMKC {
+  border-bottom: 1px solid #403e41;
+  border-right: 1px solid #403e41;
+  border-top: 1px solid #403e41;
+  border-left: 1px solid #403e41;
+  color: #fcfcfa;
+  background-color: #5b595c;
+}
+
+.GPWVOE5CMKC:hover {
+  color: #ffd866 !important;
+}
+
+.GPWVOE5CJYC {
+  border-bottom: 1px solid #403e41;
+  border-right: 1px solid #403e41;
+  border-top: 1px solid #403e41;
+  border-left: 1px solid #403e41;
+  color: #fcfcfa;
+  background-color: #5b595c;
+}
+
+.GPWVOE5CJYC:hover {
+  color: #ffd866 !important;
+}
+
+.GPWVOE5CGNB, .GPWVOE5CFOB {
+  border: 1px solid #403e41;
 }
 
 .xtermInvertColor { color: #2d2a2e; }
