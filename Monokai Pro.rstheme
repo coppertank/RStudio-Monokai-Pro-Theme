@@ -1258,7 +1258,7 @@ button.GPWVOE5CA3:hover > table:first-child {
 }
 
 .GPWVOE5CKPC {
-  border-left: 2px solid #ff6188;
+  border-left: 2px solid #ffd866;
   padding-left: 3px !important;
 }
 
