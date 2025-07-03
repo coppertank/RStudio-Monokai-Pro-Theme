@@ -312,7 +312,14 @@ div.gwt-Label[style*="float: right"] {
 
 /* border small menus */
 .rstudio-themes-dark-menus .menuPopupMiddleCenter, .rstudio-themes-dark-menus .themedPopupPanel .popupMiddleCenter, .rstudio-themes-dark-menus .gwt-SuggestBoxPopup .suggestPopupMiddleCenter {
-  border: solid 1px #2d2a2e;
+  background: #403e41 !important;
+  border: solid 1px #2d2a2e !important;
+  color: #fcfcfa !important;
+}
+
+.popupPanel {
+  background-color: #2d2a2e;
+  border: 1px solid #403e41;
 }
 
 .rstudio-themes-flat #rstudio_workbench_panel_find_in_files td[colspan="2"] {
@@ -362,9 +369,14 @@ div.gwt-Label[style*="float: right"] {
 }
 
 .rstudio-themes-flat .popupContent {
-  background: #403e41;
+  background: transparent !important;
   color: #fcfcfa;
   border-color: #221f22;
+}
+
+.rstudio-themes-flat .popupMiddleCenter, .rstudio-themes-flat .menuPopupMiddleCenter, .rstudio-themes-flat .suggestPopupMiddleCenter {
+  color: #fcfcfa !important;
+  background: #2d2a2e !important;
 }
 
 .rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
