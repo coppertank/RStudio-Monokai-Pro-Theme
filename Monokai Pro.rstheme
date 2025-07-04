@@ -1245,10 +1245,6 @@ button.GPWVOE5CA3:hover > table:first-child {
   border: 1px solid #403e41;
 }
 
-.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] > div, .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"], .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"], .rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"] [role="tab"]:not([aria-selected="true"]) .gwt-Label, .rstudio-themes-flat .gwt-DialogBox .dialogContent .gwt-TabLayoutPanelTab {
-  background: #2d2a2e !important;
-}
-
 .GPWVOE5COPC {
   border-left: none;
 }
