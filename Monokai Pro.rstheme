@@ -1266,6 +1266,22 @@ button.GPWVOE5CA3:hover > table:first-child {
   background-color: #2d2a2e;
 }
 
+a:-webkit-any-link {
+  color: #88DDFF;
+}
+
+.GPWVOE5CNCD {
+  color: #88DDFF;
+}
+
+.GPWVOE5CMCD {
+  color: #88DDFF;
+}
+
+.GPWVOE5CPDD {
+  color: #fcfcfa;
+}
+
 .xtermInvertColor { color: #2d2a2e; }
 .xtermInvertBgColor { background-color: #fcfcfa; }
 .xtermBold { font-weight: bold; }
