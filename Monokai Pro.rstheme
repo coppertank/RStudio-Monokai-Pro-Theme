@@ -1264,6 +1264,7 @@ button.GPWVOE5CA3:hover > table:first-child {
 
 .GPWVOE5CEND {
   background-color: #2d2a2e;
+  color: #fcfcfa;
 }
 
 a:-webkit-any-link {
