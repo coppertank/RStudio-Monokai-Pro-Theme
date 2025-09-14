@@ -631,57 +631,6 @@ input#rstudio_command_palette_search {
   outline-offset: 5px !important;
 }
 
-.rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label, .rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label span {
-  border: none;
-}
-
-.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel > div[aria-hidden="true"] + div {
-  height: 36px !important;
-  background: #221f22;
-}
-
-.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter {
-  padding-left: 18px;
-  padding-right: 18px;
-  height: 36px;
-}
-
-.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs .rstheme_tabLayoutCenter td {
-  vertical-align: middle !important;
-}
-
-.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs > div:empty {
-  height: 36px !important;
-}
-
-.rstudio-themes-flat .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
-  border-color: #221f22 !important;
-}
-
-.rstudio-themes-flat .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter tbody > tr > td:last-child > img {
-  display: none;
-}
-
-.rstudio-themes-flat .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter:hover tbody > tr > td:last-child > img {
-  display: inline-block;
-  position: absolute !important;
-  top: 0 !important;
-  padding-left: 3px;
-}
-
-.rstudio-themes-flat .gwt-TabLayoutPanelTabs [id^="rstudio_workbench_"] .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter:hover tbody > tr > td:last-child > img {
-  padding-top: 5px;
-}
-
-.rstudio-themes-flat .windowframe .gwt-TabLayoutPanel > div:last-child,
-.rstudio-themes-flat .gwt-TabLayoutPanel.rstudio_source_panel > div:last-child {
-  top: 34px !important;
-}
-
-.windowframe > div:last-child > div > div > div[aria-hidden="true"] + div + div {
-  height: 36px !important;
-}
-
 .rstudio-themes-flat [id^="rstudio_dialog"],
 .rstudio-themes-flat :not(.gwt-MenuItem-selected):not(.gwt-MenuItem) > [id^="rstudio_label"],
 .rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] :not(button) > table > tbody > td,
