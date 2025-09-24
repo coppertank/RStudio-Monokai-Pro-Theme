@@ -452,11 +452,6 @@ div.gwt-Label[style*="float: right"] {
   background-color: #403e41;
 }
 
-/* fix overly zealous css rules */
-.gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
-  color: #2d2a2e;
-}
-
 /* job progress bar */
 .rstheme_toolbarWrapper [role="progressbar"] > div, .windowframe [role="progressbar"] > div {
   background-color: #ffd866;
@@ -666,25 +661,6 @@ input#rstudio_command_palette_search {
 }
 
 /* GLOBAL OPTIONS */
-
-/* listbox options */
-.rstudio-themes-flat .gwt-DialogBox .dialogContent
-  [role="listbox"] [role="option"][aria-selected="true"] {
-  background-color: #403e41 !important;
-}
-
-.rstudio-themes-flat .dialogContent input[type="checkbox"] {
-  background: linear-gradient(0deg, #939293 0%, #727072 100%) !important;
-  color: #fcfcfa !important;
-}
-
-.rstudio-themes-flat .dialogContent input[type="checkbox"]:checked::before {
-  content: "\2713" !important;
-  color: #fcfcfa !important;
-  vertical-align: top;
-  line-height: 1;
-  font-weight: 600;
-}
 
 /* pop up menu line separator */
 .rstudio-themes-dark-menus .gwt-MenuItemSeparator .menuSeparatorInner {
